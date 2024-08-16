@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+#sect{
+    background-color: white;
+    color: black;
+    margin-top: 3rem;
+    width: 35rem;
+    height: 3rem;
+    border-radius: 2rem;
+    align-items: center;
+}
+
+#h1{
+    margin-left: 4rem;
+    padding: 1rem;
+    
+}
+header{
+    color: black;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1{
+    margin-right: 0;
+    margin-top: 10rem;
+}
+
+#img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    margin-left: 75rem;
+    margin-top: 5px;
+}
+
+
+.card{
+    width: 40rem;
+    max-width: 95%;
+    margin: 1rem auto;
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+#string-input{
+    margin: 0.5rem 0;
+}
+
+.title-input{
+    display: block;
+}
+
+.input{
+    border-radius: 5px;
+    padding: 0.5rem;
+    border:1ps solid grey;
+    border-radius: 2px;
+}
+
+#text-input{
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+button{
+    color: #fff;
+    font-family: inherit;
+    padding:0.6rem;
+    border-radius: 5px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left:32rem ;
+    border: none;
+}
+
+
+
+
+@media(max-width:650px){
+    body{
+        
+        background-color: aqua;
+    }
+
+    button{
+        margin:0;
+        background-color: rgb(0, 115,255);
+    }
+
+    
+    #img{
+        margin:0;
+        padding: 0;
+        
+        }
+    
+}
